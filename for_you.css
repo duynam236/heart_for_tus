@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#background {
+  background-color: black;
+}
+
+#input_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input {
+  /* outline: none; */
+  border: 2px solid rgb(103, 227, 243);
+  size: 400px;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0px 40px 0px 40px;
+  border-radius: 10px;
+}
+
+input:focus {
+  border: 2px solid rgb(23, 39, 41);
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background: aqua;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: aquamarine;
+}
+
+#cam {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
